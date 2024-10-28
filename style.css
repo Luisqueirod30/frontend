@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+ul {
+    height: 25px;
+    width: 95%;  
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+    position: fixed;
+}
+
+.img-topo {
+    height: 25px;
+    
+}
+
+video {
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.capa {
+    position: absolute;
+    bottom: 20%; /*TOP-cima , BOTTOM-baixo , LEFT-Esquerda , RIGHT-Direita */
+    left: 5%;
+    width: 35%;
+    z-index: 3; 
+}
+
+.capa-titulo {
+    color: white;
+    font-size: 80px ; /*tamanho da fonte*/
+    margin-bottom: 5px;
+    font-weight: bold; /*Grossura da fonte */
+}
+
+.capa-descricao {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.link-assistir {
+ background-color: white;
+ color: black ;
+ padding: 10px 20px ; 
+ border-radius: 4px;
+ cursor : pointer;  /*little hands */
+}
+
+
+.link-info {
+     color: black;
+     background-color: rgba(255, 255, 255, 0.35);
+     padding: 10px 20px;
+     border-radius: 4px;
+     cursor: pointer;
+}
+
+.imgaem-carrossel {
+   height: 90px; 
+}
+
+#carouselExampleControls{
+    background-color: transparent;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
